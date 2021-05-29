@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\nemts\Documents\VuGen\Scripts\5_Deleting ticket
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\nemts\documents\vugen\scripts\5_deleting ticket\\logfile.log
-c:\users\nemts\documents\vugen\scripts\5_deleting ticket\\combined_5_Deleting ticket.c
-c:\users\nemts\documents\vugen\scripts\5_deleting ticket\\pre_cci.c
