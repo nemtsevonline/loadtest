@@ -1,2 +1,0 @@
-"outboundFlight=640%3B1167%3B05%2F30%2F2021&numPassengers=1&advanceDiscount=0&seatPref=Coach&se"
-"atPref=None&reserveFlights.x=5&reserveFlights.y=9"
