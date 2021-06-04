@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\nemts\Documents\VuGen\Scripts\2_Ticket selection
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\nemts\documents\vugen\scripts\2_ticket selection\\logfile.log
+c:\users\nemts\documents\vugen\scripts\2_ticket selection\\combined_2_Ticket selection.c
+c:\users\nemts\documents\vugen\scripts\2_ticket selection\\pre_cci.c

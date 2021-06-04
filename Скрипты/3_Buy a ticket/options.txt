@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\nemts\Documents\VuGen\Scripts\3_Buy a ticket
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\nemts\documents\vugen\scripts\3_buy a ticket\\logfile.log
+c:\users\nemts\documents\vugen\scripts\3_buy a ticket\\combined_3_Buy a ticket.c
+c:\users\nemts\documents\vugen\scripts\3_buy a ticket\\pre_cci.c

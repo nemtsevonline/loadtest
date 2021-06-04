@@ -1,0 +1,11 @@
+departcity,returncity,numpassengers,seatPr,seatType
+Los Angeles,London,1,None,Coach 
+San Francisco,Paris,1,None,Coach 
+Paris,Frankfurt,1,None,Coach 
+Seattle,Denver,1,None,Coach 
+Sydney,Portland,1,None,Coach 
+Zurich,Seattle,1,None,Coach 
+Portland,Sydney,1,None,Coach 
+Denver,Seattle,1,None,Coach 
+Frankfurt,San Francisco,1,None,Coach 
+London,Los Angeles,1,None,Coach 
