@@ -157,7 +157,6 @@ Action()
 		LAST);
 
 	lr_end_transaction("Itinerary",LR_AUTO);
-
 	
 	lr_end_transaction("1_Registration", LR_AUTO);
 

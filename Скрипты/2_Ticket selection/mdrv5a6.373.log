@@ -1,0 +1,66 @@
+Action.c(228):     <title>Web Tours Navigation Bar</title>\n
+Action.c(228):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(228):     </head>\n
+Action.c(228):     <body bgcolor="#E0E7F1">\n
+Action.c(228):     <style>\n
+Action.c(228):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(228):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(228):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(228):     small {font-family: tahoma; font-size : 8pt}\n
+Action.c(228):     </style>\n
+Action.c(228):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+Action.c(228):     <input type="hidden" name="userSession" value="131470.19400567zHzctQipVAtVzzzHtAfHtpQiizcf
+Action.c(228):     "/>\n
+Action.c(228):     <table border="0"><tr><td>&nbsp;</td>\n
+Action.c(228):     <td>&nbsp;</td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td>&nbsp;</td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td><small>&nbsp;Username</small></td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td><small>&nbsp;Password</small></td>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td>&nbsp;</td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+Action.c(228):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+Action.c(228):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+Action.c(228):     </form>\n
+Action.c(228):     \n
+Action.c(228):     </body>\n
+Action.c(228):     </html>\n
+Action.c(228): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(228): t=1313193ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=415)
+Action.c(228):     0\r\n
+Action.c(228):     \r\n
+Action.c(228): t=1313193ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+Action.c(228): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+Action.c(228): web_url("SignOff Button") was successful, 2175 body bytes, 583 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(238): Notify: Transaction "Log_out" ended with a "Pass" status (Duration: 5,1972 Think Time: 5,0114 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+Action.c(240): Notify: Transaction "2_Ticket_selection" ended with a "Pass" status (Duration: 26,1220 Think Time: 25,0430 Wasted Time: 0,0049).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 16.	[MsgId: MMSG-15965]
+Waiting 58,8760 seconds for iteration pacing.	[MsgId: MMSG-15996]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=1336080ms: Closed connection [0] to localhost:1080 after completing 3 request(s)  	[MsgId: MMSG-26000]
+t=1336081ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=6, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=1336084ms: Closed connection [0] to localhost:1080 after completing 3 request(s)  	[MsgId: MMSG-26000]
+t=1336085ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Vuser 1 (thread 13808), ended OK."	[MsgId: MMSG-10695]
+HTML-Mode memory management statistics: Reusable=6, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 20996), ended OK."	[MsgId: MMSG-10695]

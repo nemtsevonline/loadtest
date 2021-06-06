@@ -6,75 +6,88 @@
                 "stepId": "STEP1",
                 "stepName": "Url: WebTours",
                 "infFile": "t1.inf",
-                "time": 1622704785215
+                "time": 1623004135737
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Url: sign up now",
                 "infFile": "t2.inf",
-                "time": 1622704790647
+                "time": 1623004136389
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Submit Data: login.pl",
                 "infFile": "t3.inf",
-                "time": 1622704790906
+                "time": 1623004136840
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Url: button_next.gif",
                 "infFile": "t4.inf",
-                "time": 1622704796301
+                "time": 1623004137608
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Url: Itinerary Button",
                 "infFile": "t5.inf",
-                "time": 1622704801807
+                "time": 1623004138191
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t6.inf",
+                "time": 1623004138579
             }
         ],
         "transactions": [
             {
                 "transactionName": "Web_tours",
-                "rawStartTime": 1622704784526,
-                "rawEndTime": 1622704785242,
+                "rawStartTime": 1623004134902,
+                "rawEndTime": 1623004135764,
                 "thinkTime": 0.0,
-                "wastedTime": 0.1688833236694336
+                "wastedTime": 0.23581719398498536
             },
             {
                 "transactionName": "Sign_up",
-                "rawStartTime": 1622704785258,
-                "rawEndTime": 1622704790649,
-                "thinkTime": 5.014637,
-                "wastedTime": 0.01129007339477539
+                "rawStartTime": 1623004135779,
+                "rawEndTime": 1623004136394,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06792569160461426
             },
             {
                 "transactionName": "Complete_form",
-                "rawStartTime": 1622704790664,
-                "rawEndTime": 1622704790914,
+                "rawStartTime": 1623004136409,
+                "rawEndTime": 1623004136856,
                 "thinkTime": 0.0,
-                "wastedTime": 0.008073091506958008
+                "wastedTime": 0.008573770523071289
             },
             {
                 "transactionName": "Login_after_registration",
-                "rawStartTime": 1622704790931,
-                "rawEndTime": 1622704796312,
-                "thinkTime": 5.008916,
-                "wastedTime": 0.013490438461303711
+                "rawStartTime": 1623004136872,
+                "rawEndTime": 1623004137621,
+                "thinkTime": 0.0,
+                "wastedTime": 0.017667293548583986
             },
             {
                 "transactionName": "Itinerary",
-                "rawStartTime": 1622704796328,
-                "rawEndTime": 1622704801811,
-                "thinkTime": 5.003259,
-                "wastedTime": 0.013200521469116211
+                "rawStartTime": 1623004137636,
+                "rawEndTime": 1623004138206,
+                "thinkTime": 0.0,
+                "wastedTime": 0.017873048782348634
+            },
+            {
+                "transactionName": "Log_out",
+                "rawStartTime": 1623004138222,
+                "rawEndTime": 1623004138587,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011921405792236328
             },
             {
                 "transactionName": "1_Registration",
-                "rawStartTime": 1622704784511,
-                "rawEndTime": 1622704801826,
-                "thinkTime": 15.026812,
-                "wastedTime": 0.21493744850158692
+                "rawStartTime": 1623004134887,
+                "rawEndTime": 1623004138602,
+                "thinkTime": 0.0,
+                "wastedTime": 0.35977840423583987
             }
         ]
     }

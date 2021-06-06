@@ -2718,6 +2718,27 @@ Action()
 		"LAST");
 
 	lr_end_transaction("Itinerary",2);
+
+	lr_start_transaction("Log_out");
+
+	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+
+	lr_think_time(22);
+	
+	web_reg_find("Text=Web Tours",
+        "LAST");
+
+	web_url("SignOff Button",
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		"LAST");
+
+	lr_end_transaction("Log_out",2);
 	
 	lr_end_transaction("4_Checking_reservation", 2);
 

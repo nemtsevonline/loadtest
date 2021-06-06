@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sun, 06 Jun 2021 16:19:44 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Jo&address2&Jo&username&Jo1&hash&81&lastName&Jo%0A&address1&Jo&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

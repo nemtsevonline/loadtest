@@ -2790,7 +2790,7 @@ web_reg_find("Text=User has returned to the search page",
 
 	lr_think_time(44);
 
-	lr_start_transaction("Choice");
+	lr_start_transaction("Selection");
 	
 	web_reg_find("Text=Flight Reservation",
 		"LAST");
@@ -2813,7 +2813,7 @@ web_reg_find("Text=User has returned to the search page",
 		"Name=reserveFlights.y", "Value=9", "ENDITEM",
 		"LAST");
 
-	lr_end_transaction("Choice",2);
+	lr_end_transaction("Selection",2);
 
 	lr_start_transaction("Log_out");
 

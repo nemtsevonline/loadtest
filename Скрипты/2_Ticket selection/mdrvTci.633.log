@@ -1,0 +1,102 @@
+Action.c(228):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+Action.c(228):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1\r\n
+Action.c(228):     Sec-Fetch-Site: same-origin\r\n
+Action.c(228):     Sec-Fetch-Dest: frame\r\n
+Action.c(228):     Sec-Fetch-Mode: navigate\r\n
+Action.c(228):     sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"\r\n
+Action.c(228):     sec-ch-ua-mobile: ?0\r\n
+Action.c(228):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(228):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(228):     o) Chrome/91.0.4472.77 Safari/537.36\r\n
+Action.c(228):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(228):     Accept-Language: ru-RU,ru;q=0.9\r\n
+Action.c(228):     Accept: */*\r\n
+Action.c(228):     Connection: Keep-Alive\r\n
+Action.c(228):     Host: localhost:1080\r\n
+Action.c(228):     Cookie: MSO=SID&1623005508\r\n
+Action.c(228):     \r\n
+Action.c(228): t=1313512ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=415)
+Action.c(228):     HTTP/1.1 200 OK\r\n
+Action.c(228):     Date: Sun, 06 Jun 2021 18:51:48 GMT\r\n
+Action.c(228):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(228):     Expires: Sat, 05 Jun 2021 18:51:49 GMT\r\n
+Action.c(228):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(228):     Connection: Keep-Alive\r\n
+Action.c(228):     Transfer-Encoding: chunked\r\n
+Action.c(228):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(228):     \r\n
+Action.c(228): t=1313513ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=415)
+Action.c(228):     5ca\r\n
+Action.c(228): t=1313513ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=415)
+Action.c(228):     \r\n
+Action.c(228): t=1313513ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=415)
+Action.c(228):     <!DOCTYPE html\n
+Action.c(228):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(228):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(228):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(228):     <head>\n
+Action.c(228):     <title>Web Tours Navigation Bar</title>\n
+Action.c(228):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(228):     </head>\n
+Action.c(228):     <body bgcolor="#E0E7F1">\n
+Action.c(228):     <style>\n
+Action.c(228):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(228):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(228):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(228):     small {font-family: tahoma; font-size : 8pt}\n
+Action.c(228):     </style>\n
+Action.c(228):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+Action.c(228):     <input type="hidden" name="userSession" value="131470.677035237zHzcfccpQftAfHfpVDHH"/>\n
+Action.c(228):     <table border="0"><tr><td>&nbsp;</td>\n
+Action.c(228):     <td>&nbsp;</td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td>&nbsp;</td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td><small>&nbsp;Username</small></td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td><small>&nbsp;Password</small></td>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td>&nbsp;</td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td>\n
+Action.c(228):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+Action.c(228):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+Action.c(228):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+Action.c(228):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+Action.c(228):     </form>\n
+Action.c(228):     \n
+Action.c(228):     </body>\n
+Action.c(228):     </html>\n
+Action.c(228): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(228): t=1313517ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=415)
+Action.c(228):     0\r\n
+Action.c(228):     \r\n
+Action.c(228): t=1313517ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+Action.c(228): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+Action.c(228): web_url("SignOff Button") was successful, 2168 body bytes, 583 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(238): Notify: Transaction "Log_out" ended with a "Pass" status (Duration: 5,2476 Think Time: 5,0150 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+Action.c(240): Notify: Transaction "2_Ticket_selection" ended with a "Pass" status (Duration: 26,1624 Think Time: 25,0344 Wasted Time: 0,0053).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 16.	[MsgId: MMSG-15965]
+Waiting 58,8360 seconds for iteration pacing.	[MsgId: MMSG-15996]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=1336327ms: Closed connection [0] to localhost:1080 after completing 3 request(s)  	[MsgId: MMSG-26000]
+t=1336327ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=6, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 1 (thread 1388), ended OK."	[MsgId: MMSG-10695]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=1336339ms: Closed connection [0] to localhost:1080 after completing 3 request(s)  	[MsgId: MMSG-26000]
+t=1336340ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=6, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 19524), ended OK."	[MsgId: MMSG-10695]

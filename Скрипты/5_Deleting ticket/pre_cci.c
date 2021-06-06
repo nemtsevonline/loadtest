@@ -2773,11 +2773,11 @@ Action()
 
 	lr_think_time(32);
 	
- 
- 
- 
- 
- 
+	web_reg_save_param("flight_ID",
+		"LB=name=\"flightID\" value=\"",
+		"RB=-",
+		"Ord=ALL",
+		"LAST");
 	
 	web_reg_find("Text=Flights List",
 		"LAST");

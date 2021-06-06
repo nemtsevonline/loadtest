@@ -1,4 +1,4 @@
-# 1 "c:\\users\\nemts\\documents\\vugen\\scripts\\1_registration\\\\combined_1_Registration.c"
+# 1 "c:\\users\\nemts\\desktop\\new\\1_registration\\\\combined_1_Registration.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\nemts\\documents\\vugen\\scripts\\1_registration\\\\combined_1_Registration.c" 2
+# 1 "c:\\users\\nemts\\desktop\\new\\1_registration\\\\combined_1_Registration.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1132,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\nemts\\documents\\vugen\\scripts\\1_registration\\\\combined_1_Registration.c" 2
+# 2 "c:\\users\\nemts\\desktop\\new\\1_registration\\\\combined_1_Registration.c" 2
 
 # 1 "globals.h" 1
 
@@ -2589,14 +2589,14 @@ void
  
 
 
-# 3 "c:\\users\\nemts\\documents\\vugen\\scripts\\1_registration\\\\combined_1_Registration.c" 2
+# 3 "c:\\users\\nemts\\desktop\\new\\1_registration\\\\combined_1_Registration.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\nemts\\documents\\vugen\\scripts\\1_registration\\\\combined_1_Registration.c" 2
+# 4 "c:\\users\\nemts\\desktop\\new\\1_registration\\\\combined_1_Registration.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2759,17 +2759,42 @@ Action()
 
 	lr_end_transaction("Itinerary",2);
 
+	lr_start_transaction("Log_out");
+
+	web_add_header("Sec-Fetch-User", 
+		"?1");
+
+	web_add_header("Upgrade-Insecure-Requests", 
+		"1");
+
+	lr_think_time(37);
+	
+	web_reg_find("Text=Web Tours",
+		"LAST");
+
+	web_url("SignOff Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t5.inf", 
+		"Mode=HTML", 
+		"LAST");
+	
+
+	lr_end_transaction("Log_out",2);
 	
 	lr_end_transaction("1_Registration", 2);
 
 	return 0;
 }
-# 5 "c:\\users\\nemts\\documents\\vugen\\scripts\\1_registration\\\\combined_1_Registration.c" 2
+# 5 "c:\\users\\nemts\\desktop\\new\\1_registration\\\\combined_1_Registration.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\nemts\\documents\\vugen\\scripts\\1_registration\\\\combined_1_Registration.c" 2
+# 6 "c:\\users\\nemts\\desktop\\new\\1_registration\\\\combined_1_Registration.c" 2
 
